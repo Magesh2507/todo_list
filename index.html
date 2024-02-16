@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css"></link>
+    <title>To do list</title>
+</head>
+<body>
+    <form>
+        <h1 style="margin: 40px 0px; font-family: system-ui;">To do list</h1>
+        <input id="input" onkeyup="enableSubmit()"/>
+        <button  id="submit" class="submit" type="submit" disabled>Submit</button>
+    </form>
+    <div>
+        <ul id="list-container" >
+
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
